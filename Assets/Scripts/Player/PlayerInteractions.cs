@@ -14,7 +14,10 @@ public class PlayerInteractions : MonoBehaviour
         if(other.gameObject.CompareTag("HealthBox"))
         {
             PlayerHealth playerHealth = GetComponent<PlayerHealth>();
-            playerHealth.currentHealth += other.gameObject.GetComponent<HealthBox>().health;
+            if (playerHealth != null)
+            {
+                playerHealth.Heal(other.gameObject.GetComponent<HealthBox>().health);
+            }
             Destroy(other.gameObject);
         }
     }
