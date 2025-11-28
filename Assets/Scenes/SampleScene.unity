@@ -267,6 +267,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: b8c666a585a38404cbc7e77aae57d4d7,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: ddbf63d0f0cbdb940b8bba9625df462f, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1215,6 +1220,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: b8c666a585a38404cbc7e77aae57d4d7,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: ddbf63d0f0cbdb940b8bba9625df462f, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1286,8 +1296,12 @@ MonoBehaviour:
   - {fileID: 398898178}
   - {fileID: 380030173}
   - {fileID: 447372752}
+  animator: {fileID: 0}
   followPlayer: 1
+  distanceToFollow: 10
   distanceToFollowPath: 2
+  distanceToAttack: 2.5
+  attackCooldown: 1.5
 --- !u!195 &182369154
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -1725,6 +1739,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: b8c666a585a38404cbc7e77aae57d4d7,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: ddbf63d0f0cbdb940b8bba9625df462f, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2587,6 +2606,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: b8c666a585a38404cbc7e77aae57d4d7,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: ddbf63d0f0cbdb940b8bba9625df462f, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5286,8 +5310,12 @@ MonoBehaviour:
   - {fileID: 398898178}
   - {fileID: 380030173}
   - {fileID: 447372752}
+  animator: {fileID: 0}
   followPlayer: 1
+  distanceToFollow: 10
   distanceToFollowPath: 2
+  distanceToAttack: 2.5
+  attackCooldown: 1.5
 --- !u!195 &719886965
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -5408,8 +5436,12 @@ MonoBehaviour:
   - {fileID: 398898178}
   - {fileID: 380030173}
   - {fileID: 447372752}
+  animator: {fileID: 0}
   followPlayer: 1
+  distanceToFollow: 10
   distanceToFollowPath: 2
+  distanceToAttack: 2.5
+  attackCooldown: 1.5
 --- !u!195 &726701617
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -6459,8 +6491,12 @@ MonoBehaviour:
   - {fileID: 398898178}
   - {fileID: 380030173}
   - {fileID: 447372752}
+  animator: {fileID: 0}
   followPlayer: 1
+  distanceToFollow: 10
   distanceToFollowPath: 2
+  distanceToAttack: 2.5
+  attackCooldown: 1.5
 --- !u!195 &838546957
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -7363,6 +7399,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: b8c666a585a38404cbc7e77aae57d4d7,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: ddbf63d0f0cbdb940b8bba9625df462f, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7434,8 +7475,12 @@ MonoBehaviour:
   - {fileID: 398898178}
   - {fileID: 380030173}
   - {fileID: 447372752}
+  animator: {fileID: 0}
   followPlayer: 1
+  distanceToFollow: 10
   distanceToFollowPath: 2
+  distanceToAttack: 2.5
+  attackCooldown: 1.5
 --- !u!195 &966656629
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -7716,8 +7761,12 @@ MonoBehaviour:
   - {fileID: 398898178}
   - {fileID: 380030173}
   - {fileID: 447372752}
+  animator: {fileID: 0}
   followPlayer: 1
+  distanceToFollow: 10
   distanceToFollowPath: 2
+  distanceToAttack: 2.5
+  attackCooldown: 1.5
 --- !u!195 &1050931262
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -11767,6 +11816,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: b8c666a585a38404cbc7e77aae57d4d7,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: ddbf63d0f0cbdb940b8bba9625df462f, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11838,8 +11892,12 @@ MonoBehaviour:
   - {fileID: 398898178}
   - {fileID: 380030173}
   - {fileID: 447372752}
+  animator: {fileID: 0}
   followPlayer: 1
+  distanceToFollow: 10
   distanceToFollowPath: 2
+  distanceToAttack: 2.5
+  attackCooldown: 1.5
 --- !u!195 &1798680281
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -13186,6 +13244,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: b8c666a585a38404cbc7e77aae57d4d7,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: ddbf63d0f0cbdb940b8bba9625df462f, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
